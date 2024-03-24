@@ -9,8 +9,8 @@
 
 import json
 
-from find_keywords import extract_words_with_coordinates, calculate_affine_matrix
-from pdf_vision import analyze_image
+from ballot_ocr.find_keywords import extract_words_with_coordinates, calculate_affine_matrix
+from ballot_ocr.pdf_vision import analyze_image
 
 
 def save_to_json(data, file_path):

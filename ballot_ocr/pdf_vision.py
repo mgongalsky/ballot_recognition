@@ -45,13 +45,12 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 
-from azure_credentials import azure_endpoint, azure_key
 
 #from apply_image_filter import apply_filters
 
 # Поместите эти значения из вашего ресурса Azure
-endpoint = azure_endpoint
-key = azure_key
+endpoint = 'azure_endpoint'
+key = 'azure_key'
 
 
 """

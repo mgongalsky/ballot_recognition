@@ -10,10 +10,10 @@
 import os
 from glob import glob
 
-from analize_squares import read_rectangles, analyze_rectangles
-from ballot_vision import load_keywords_from_file, save_to_json
-from find_keywords import calculate_affine_matrix
-from pdf_vision import analyze_image, analyze_image_url
+from ballot_ocr.analize_squares import read_rectangles, analyze_rectangles
+from ballot_ocr.ballot_vision import load_keywords_from_file, save_to_json
+from ballot_ocr.find_keywords import calculate_affine_matrix
+from ballot_ocr.pdf_vision import analyze_image, analyze_image_url
 
 
 def get_json_filename(image_path, output_dir="ballots_jsons"):

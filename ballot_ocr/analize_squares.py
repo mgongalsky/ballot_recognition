@@ -10,8 +10,8 @@ import cv2
 import json
 import numpy as np
 
-from ballot_vision import load_keywords_from_file
-from find_keywords import calculate_affine_matrix
+from ballot_ocr.ballot_vision import load_keywords_from_file
+from ballot_ocr.find_keywords import calculate_affine_matrix
 
 # Путь к файлу с координатами прямоугольников
 json_file_path = 'rectangles.json'
